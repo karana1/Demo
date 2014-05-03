@@ -21,6 +21,7 @@
 		B389ED4818DB8B6E00346952 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B389ED2A18DB8B6D00346952 /* UIKit.framework */; };
 		B389ED5018DB8B6E00346952 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B389ED4E18DB8B6E00346952 /* InfoPlist.strings */; };
 		B389ED5218DB8B6E00346952 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B389ED5118DB8B6E00346952 /* DemoTests.m */; };
+		CE27EB311914890E003FB5AB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27EB301914890E003FB5AB /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B389ED4D18DB8B6E00346952 /* DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoTests-Info.plist"; sourceTree = "<group>"; };
 		B389ED4F18DB8B6E00346952 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B389ED5118DB8B6E00346952 /* DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTests.m; sourceTree = "<group>"; };
+		CE27EB2F1914890E003FB5AB /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CE27EB301914890E003FB5AB /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 			children = (
 				B389ED3518DB8B6D00346952 /* AppDelegate.h */,
 				B389ED3618DB8B6D00346952 /* AppDelegate.m */,
+				CE27EB2F1914890E003FB5AB /* SecondViewController.h */,
+				CE27EB301914890E003FB5AB /* SecondViewController.m */,
 				B389ED3818DB8B6D00346952 /* Main.storyboard */,
 				B389ED3B18DB8B6D00346952 /* ViewController.h */,
 				B389ED3C18DB8B6D00346952 /* ViewController.m */,
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE27EB311914890E003FB5AB /* SecondViewController.m in Sources */,
 				B389ED3D18DB8B6D00346952 /* ViewController.m in Sources */,
 				B389ED3718DB8B6D00346952 /* AppDelegate.m in Sources */,
 				B389ED3318DB8B6D00346952 /* main.m in Sources */,
@@ -460,6 +466,7 @@
 				B389ED5718DB8B6E00346952 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B389ED5818DB8B6E00346952 /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				B389ED5A18DB8B6E00346952 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
