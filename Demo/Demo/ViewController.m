@@ -33,7 +33,8 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)btn_Alert:(id)sender {
+- (IBAction)btn_Alert:(id)sender
+{
     
     UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Hello" message:@"How are you?" delegate:Nil cancelButtonTitle:@"ok" otherButtonTitles:nil,nil];
     [alert show];
