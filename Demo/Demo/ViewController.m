@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"Hello How Are you?");
 }
 
 -(NSString *)stringreturn:(NSString *)str_new
